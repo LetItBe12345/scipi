@@ -39,6 +39,8 @@ coverage/
 packages/ai/test/.temp-images/
 
 # Project specific
+/.scipi-bun/
+/tmp/
 !.omp/
 .omp/plugins/
 .pi_config/
