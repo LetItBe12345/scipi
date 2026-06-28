@@ -64,7 +64,6 @@ Special URLs for internal resources; with most FS/bash tools they auto-resolve t
 - `mcp://<uri>`: MCP resource
 - `issue://<N>` (or `issue://<owner>/<repo>/<N>`): GitHub issue; bare lists recent issues.
 - `pr://<N>` (or `pr://<owner>/<repo>/<N>`): GitHub PR; bare lists recent PRs.
-- `omp://`: harness docs; AVOID unless the user asks about the harness itself.
 
 {{#if toolInfo.length}}
 {{#if toolListMode}}

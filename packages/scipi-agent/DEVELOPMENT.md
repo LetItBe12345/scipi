@@ -5,9 +5,8 @@ in `src/`, how to run the local loops, and — for each subsystem — which docu
 the repo [`docs/`](../../docs/) tree is the authoritative reference.
 
 The long architecture walkthrough that used to live here drifted out of date faster
-than anyone re-read it. The `docs/` tree is kept current (and indexed for the
-in-agent `docs://` / `/docs` surface), so this file links there instead of
-duplicating prose that goes stale.
+than anyone re-read it. The `docs/` tree is kept current, so this file links there
+instead of duplicating prose that goes stale.
 
 ## Local development
 
@@ -19,9 +18,8 @@ Run from `packages/coding-agent/` (or add `--cwd=packages/coding-agent`):
 | Types only | `bun run check:types` |
 | Lint only | `bun run lint` |
 | Tests | `bun run test` |
-| Autofix: lint + format prompts + docs index | `bun run fix` |
+| Autofix: lint + format prompts | `bun run fix` |
 | Reformat prompt `.md` assets | `bun run format-prompts` |
-| Regenerate the `docs://` index | `bun run generate-docs-index` |
 | Build the `dist/omp` binary | `bun run build` |
 
 Never invoke `tsc`/`npx tsc` directly — `bun run check` is the typecheck gate. After

@@ -469,7 +469,6 @@ import * as bundledPiCodingAgentHindsightTranscript from "@oh-my-pi/pi-coding-ag
 import * as bundledPiCodingAgentInternalUrls from "@oh-my-pi/pi-coding-agent/internal-urls";
 import * as bundledPiCodingAgentInternalUrlsAgentProtocol from "@oh-my-pi/pi-coding-agent/internal-urls/agent-protocol";
 import * as bundledPiCodingAgentInternalUrlsArtifactProtocol from "@oh-my-pi/pi-coding-agent/internal-urls/artifact-protocol";
-import * as bundledPiCodingAgentInternalUrlsDocsIndex from "@oh-my-pi/pi-coding-agent/internal-urls/docs-index";
 import * as bundledPiCodingAgentInternalUrlsFilesystemResource from "@oh-my-pi/pi-coding-agent/internal-urls/filesystem-resource";
 import * as bundledPiCodingAgentInternalUrlsHistoryProtocol from "@oh-my-pi/pi-coding-agent/internal-urls/history-protocol";
 import * as bundledPiCodingAgentInternalUrlsIssuePrProtocol from "@oh-my-pi/pi-coding-agent/internal-urls/issue-pr-protocol";
@@ -477,7 +476,6 @@ import * as bundledPiCodingAgentInternalUrlsJsonQuery from "@oh-my-pi/pi-coding-
 import * as bundledPiCodingAgentInternalUrlsLocalProtocol from "@oh-my-pi/pi-coding-agent/internal-urls/local-protocol";
 import * as bundledPiCodingAgentInternalUrlsMcpProtocol from "@oh-my-pi/pi-coding-agent/internal-urls/mcp-protocol";
 import * as bundledPiCodingAgentInternalUrlsMemoryProtocol from "@oh-my-pi/pi-coding-agent/internal-urls/memory-protocol";
-import * as bundledPiCodingAgentInternalUrlsOmpProtocol from "@oh-my-pi/pi-coding-agent/internal-urls/omp-protocol";
 import * as bundledPiCodingAgentInternalUrlsParse from "@oh-my-pi/pi-coding-agent/internal-urls/parse";
 import * as bundledPiCodingAgentInternalUrlsRegistryHelpers from "@oh-my-pi/pi-coding-agent/internal-urls/registry-helpers";
 import * as bundledPiCodingAgentInternalUrlsRouter from "@oh-my-pi/pi-coding-agent/internal-urls/router";
@@ -2056,8 +2054,6 @@ export const BUNDLED_PI_REGISTRY: Readonly<Record<string, Readonly<Record<string
 		bundledPiCodingAgentInternalUrlsAgentProtocol as unknown as Readonly<Record<string, unknown>>,
 	"@oh-my-pi/pi-coding-agent/internal-urls/artifact-protocol":
 		bundledPiCodingAgentInternalUrlsArtifactProtocol as unknown as Readonly<Record<string, unknown>>,
-	"@oh-my-pi/pi-coding-agent/internal-urls/docs-index":
-		bundledPiCodingAgentInternalUrlsDocsIndex as unknown as Readonly<Record<string, unknown>>,
 	"@oh-my-pi/pi-coding-agent/internal-urls/filesystem-resource":
 		bundledPiCodingAgentInternalUrlsFilesystemResource as unknown as Readonly<Record<string, unknown>>,
 	"@oh-my-pi/pi-coding-agent/internal-urls/history-protocol":
@@ -2072,8 +2068,6 @@ export const BUNDLED_PI_REGISTRY: Readonly<Record<string, Readonly<Record<string
 		bundledPiCodingAgentInternalUrlsMcpProtocol as unknown as Readonly<Record<string, unknown>>,
 	"@oh-my-pi/pi-coding-agent/internal-urls/memory-protocol":
 		bundledPiCodingAgentInternalUrlsMemoryProtocol as unknown as Readonly<Record<string, unknown>>,
-	"@oh-my-pi/pi-coding-agent/internal-urls/omp-protocol":
-		bundledPiCodingAgentInternalUrlsOmpProtocol as unknown as Readonly<Record<string, unknown>>,
 	"@oh-my-pi/pi-coding-agent/internal-urls/parse": bundledPiCodingAgentInternalUrlsParse as unknown as Readonly<
 		Record<string, unknown>
 	>,
