@@ -58,9 +58,6 @@ Special URLs for internal resources; with most FS/bash tools they auto-resolve t
 - `artifact://<id>`: artifact content
 - `history://<agentId>`: agent transcript (markdown); bare `history://` lists agents
 - `local://<name>.md`: plan artifacts or shared content for subagents
-{{#if hasObsidian}}
-- `vault://<vault>/<path>`: Obsidian vault (read/edit).
-{{/if}}
 - `mcp://<uri>`: MCP resource
 - `issue://<N>` (or `issue://<owner>/<repo>/<N>`): GitHub issue; bare lists recent issues.
 - `pr://<N>` (or `pr://<owner>/<repo>/<N>`): GitHub PR; bare lists recent PRs.
