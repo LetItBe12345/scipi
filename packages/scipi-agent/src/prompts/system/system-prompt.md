@@ -62,8 +62,6 @@ Special URLs for internal resources; with most FS/bash tools they auto-resolve t
 - `vault://<vault>/<path>`: Obsidian vault (read/edit).
 {{/if}}
 - `mcp://<uri>`: MCP resource
-- `issue://<N>` (or `issue://<owner>/<repo>/<N>`): GitHub issue; bare lists recent issues.
-- `pr://<N>` (or `pr://<owner>/<repo>/<N>`): GitHub PR; bare lists recent PRs.
 
 {{#if toolInfo.length}}
 {{#if toolListMode}}
