@@ -16,11 +16,11 @@ import * as os from "node:os";
 import * as path from "node:path";
 import { engines, version } from "../package.json" with { type: "json" };
 
-/** App name (e.g. "omp") */
-export const APP_NAME: string = "omp";
+/** App name (e.g. "scipi") */
+export const APP_NAME: string = "scipi";
 
-/** Config directory name (e.g. ".omp") */
-export const CONFIG_DIR_NAME: string = ".omp";
+/** Config directory name (e.g. ".scipi") */
+export const CONFIG_DIR_NAME: string = ".scipi";
 
 /** Version (e.g. "1.0.0") */
 export const VERSION: string = version;
