@@ -59,8 +59,8 @@
 
 ## Modes / Variants
 - Discovery-mode gating:
-  - `tools.discoveryMode = "auto"` (default): when the registered tool set has more than 40 tools, searches hidden MCP tools only; otherwise discovery stays off.
-  - `tools.discoveryMode = "all"`: searches hidden discoverable built-ins plus hidden MCP tools.
+  - `tools.discoveryMode = "all"` (default): searches hidden discoverable built-ins plus hidden MCP tools.
+  - `tools.discoveryMode = "auto"`: when the registered tool set has more than 40 tools, searches hidden MCP tools only; otherwise discovery stays off.
   - `tools.discoveryMode = "mcp-only"`: searches hidden MCP tools only.
   - legacy `mcp.discoveryMode = true`: same as MCP-only.
 - Search-index source:
